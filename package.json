@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/main.ts",
+    "build": "tsc",
+    "start": "node ./src/js/main.js",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
