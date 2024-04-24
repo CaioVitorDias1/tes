@@ -11,4 +11,9 @@ describe("Testes do controller", () => {
         let result = somando(5, 5)
         expect(result).toEqual(10)
     })
+
+    it("funcao somando 2", () => {
+        let result = somando(3, 2)
+        expect(result).toEqual(5)
+    })
 })
